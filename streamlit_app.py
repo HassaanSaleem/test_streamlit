@@ -5,6 +5,7 @@ import streamlit as st
 
 # In[1]:
 
+!pip install sklearn
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
